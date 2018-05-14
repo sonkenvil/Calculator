@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:background="@color/colorSchooner"
+        android:stretchColumns="@string/mul"
+        tools:context="com.something.kteam.fragment.MainActivity">
+
+        <TextView
+            android:textColor="@color/colorBlack"
+            android:id="@+id/text_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/value"
+            android:textSize="@dimen/text_size" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <Button
+                android:id="@+id/button_ac"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size"
+                android:background="@drawable/button_rimbackground"
+                android:text="@string/ac"
+                android:textSize="@dimen/para_button" />
+
+            <Button
+                android:id="@+id/button_fraction"
+                android:text="@string/fraction"
+                android:layout_height="@dimen/box_size"
+                android:background="@drawable/button_rimbackground"
+                android:textSize="@dimen/para_button" />
+
+            <Button
+                android:id="@+id/button_percent"
+                android:text="@string/percent"
+                android:layout_height="@dimen/box_size"
+                android:background="@drawable/button_rimbackground"
+                android:textSize="@dimen/para_button" />
+
+            <Button
+                android:id="@+id/button_div"
+                android:layout_height="@dimen/box_size"
+                android:background="@drawable/button_background"
+                android:text="@string/div"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/para_button" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <Button
+                android:text="@string/seven"
+                android:id="@+id/button_seven"
+                android:layout_height="@dimen/box_size"
+                android:background="@drawable/button_rimbackground"
+                android:textSize="@dimen/para_button" />
+
+            <Button
+                android:id="@+id/button_eight"
+                android:text="@string/eight"
+                android:layout_height="@dimen/box_size"
+                android:background="@drawable/button_rimbackground"
+                android:textSize="@dimen/para_button" />
+
+            <Button
+                android:id="@+id/button_nine"
+                android:text="@string/nine"
+                android:layout_height="@dimen/box_size"
+                android:background="@drawable/button_rimbackground"
+                android:textSize="@dimen/para_button" />
+
+            <Button
+                android:id="@+id/button_mul"
+                android:layout_height="@dimen/box_size"
+                android:background="@drawable/button_background"
+                android:text="@string/mul"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/para_button" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <Button
+                android:id="@+id/button_four"
+                android:text="@string/four"
+                android:layout_height="@dimen/box_size"
+                android:background="@drawable/button_rimbackground"
+                android:textSize="@dimen/para_button" />
+
+            <Button
+                android:id="@+id/button_five"
+                android:text="@string/five"
+                android:layout_height="@dimen/box_size"
+                android:background="@drawable/button_rimbackground"
+                android:textSize="@dimen/para_button" />
+
+            <Button
+                android:id="@+id/button_six"
+                android:text="@string/six"
+                android:layout_height="@dimen/box_size"
+                android:background="@drawable/button_rimbackground"
+                android:textSize="@dimen/para_button" />
+
+            <Button
+                android:id="@+id/button_sub"
+                android:layout_height="@dimen/box_size"
+                android:background="@drawable/button_background"
+                android:text="@string/sub"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/para_button" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <Button
+                android:id="@+id/button_one"
+                android:text="@string/one"
+                android:layout_height="@dimen/box_size"
+                android:background="@drawable/button_rimbackground"
+                android:textSize="@dimen/para_button" />
+
+            <Button
+                android:id="@+id/button_two"
+                android:text="@string/two"
+                android:layout_height="@dimen/box_size"
+                android:background="@drawable/button_rimbackground"
+                android:textSize="@dimen/para_button" />
+
+            <Button
+                android:text="@string/three"
+                android:id="@+id/button_three"
+                android:layout_height="@dimen/box_size"
+                android:background="@drawable/button_rimbackground"
+                android:textSize="@dimen/para_button" />
+
+            <Button
+                android:id="@+id/button_add"
+                android:layout_height="@dimen/box_size"
+                android:background="@drawable/button_background"
+                android:text="@string/add"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/para_button" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <Button
+                android:id="@+id/button_zero"
+                android:text="@string/zero"
+                android:layout_height="@dimen/box_size"
+                android:layout_span="2"
+                android:background="@drawable/button_rimbackground"
+                android:textSize="@dimen/para_button" />
+
+            <Button
+                android:id="@+id/button_dot"
+                android:text="@string/dot"
+                android:layout_height="@dimen/box_size"
+                android:background="@drawable/button_rimbackground"
+                android:textSize="@dimen/para_button" />
+
+            <Button
+                android:id="@+id/button_result"
+                android:layout_height="@dimen/box_size"
+                android:background="@drawable/button_background"
+                android:text="@string/result"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/para_button" />
+        </TableRow>
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>

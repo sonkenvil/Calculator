@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="box_size">90dp</dimen>
+    <dimen name="rim_size">2dp</dimen>
+    <dimen name="text_size">60dp</dimen>
+    <dimen name="para_button">40dp</dimen>
+</resources>
